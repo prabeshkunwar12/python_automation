@@ -1,0 +1,33 @@
+printing the content of stdout_example.py:
+#! ../../myenv/bin/python3
+print("Hello, World!")
+
+running the script:
+
+printing the content of new_file.txt:
+Hello, World!
+
+using >> to append to the file:
+
+printing the content of new_file.txt after appending:
+Hello, World!
+Hello, World!
+
+printing the content of streams_err.py:
+#! ../../myenv/bin/python3
+data = input("This will come from STDIN: ")
+print("Now we write it to STDOUT:  " + data)
+raise ValueError("Now we generate an error to STDERR")
+
+running the script and taking stdin from new_file.txt and redirecting stderr to error_log.txt:
+This will come from STDIN: Now we write it to STDOUT:  Hello, World!
+
+printing the content of error_log.txt:
+Traceback (most recent call last):
+  File "/Users/prabeshkunwar/Documents/Projects/Automation/bash_scripting/1/./streams_err.py", line 4, in <module>
+    raise ValueError("Now we generate an error to STDERR")
+ValueError: Now we generate an error to STDERR
+
+printing the content of stdout.txt:
+This will come from STDIN: Now we write it to STDOUT:  Hello, World!
+

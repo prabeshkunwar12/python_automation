@@ -1,0 +1,9 @@
+Test output log
+Running test 1
+Finished test 1: PASSED
+Running test 2
+Finished test 2: PASSED
+Running test 3
+Finished test 3: PASSED
+Running test 4
+Finished test 4: PASSED
