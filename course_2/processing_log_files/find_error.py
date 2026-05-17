@@ -1,4 +1,4 @@
-#!../myenv/bin/python3
+#!../../myenv/bin/python3
 import sys
 import re
 import os

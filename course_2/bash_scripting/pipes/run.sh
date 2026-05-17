@@ -5,9 +5,9 @@ echo
 echo
 
 echo "running the script with a pipe"
-cat haiku.txt | ./capatilize.py
+cat haiku.txt | ./capitalize.py
 echo
 
 echo "running the script with input redirection"
-./capatilize.py < haiku.txt
+./capitalize.py < haiku.txt
 echo

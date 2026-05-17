@@ -3,7 +3,7 @@
 import unittest
 import os
 import shutil
-from rearrange_name import rearrange_name
+from rearrange_name.rearrange_name import rearrange_name
 
 def setUpModule():
     global COUNTER
